@@ -1,11 +1,22 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
-export default async function ConnectToDb(){
+const ConnectToDb = async () => {
     try {
-     
-       await mongoose.connect("mongodb+srv://momhomesid:JsDsA5SEihnecDun@cluster0.wnpdos4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/momhomes")
-        console.log("Connected To Db Successfull")
+        const connectionString = process.env.MONGODB_URI;
+        if (!connectionString) {
+            throw new Error('MONGODB_URI is not defined');
+        }
+
+        await mongoose.connect(connectionString, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        });
+
+        console.log('Connected to MongoDB');
     } catch (error) {
-        console.log(error)
+        console.error('Error connecting to MongoDB:', error);
+        process.exit(1);
     }
-}
+};
+
+export default ConnectToDb;
