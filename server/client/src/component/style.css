@@ -1,0 +1,3140 @@
+/* slick slider */
+.slider-container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+
+
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.slick-slide {
+  padding: 0 10px; /* Add padding on left and right */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Adjust the negative margin to compensate for the padding */
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+width:100vw;
+height: 100vh;
+overflow-x:hidden ;
+
+   
+   
+    color: #4d4d4d;
+  }
+  ul li{
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+
+.menu-area {
+  position: relative;
+}
+
+img {
+   
+    overflow: clip;
+}
+  
+.mom-logo{
+    height:4rem;
+    width:100%;
+  }
+  
+  .navbar{
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .BgColour {
+    
+    transition: all 1s;
+    background-color: black;
+   
+}
+.offcanvas-header {
+  background-color: #090909;
+  
+}
+.navbar-toggler i{
+  color: #df8133;
+  font-size: 2.2rem;
+}
+.offcanvas-header button{
+  background-color:#df8133;
+  color:#090909
+}
+
+   .nav-light{
+   
+    z-index: 9999;
+    
+}
+ .offcanvas-body .navbar-nav .nav-item .nav-link{
+  font-size:1.2rem;
+   color:white;
+  
+ }
+
+ .offcanvas-body .navbar-nav .nav-item .nav-link:hover{
+  color:#df8133;
+
+ }
+ .offcanvas-body .navbar-nav .nav-item .nav-link:active{
+  color:#dc8f09;
+ }
+  .others-option a{
+       
+    text-decoration: none;
+
+
+  }
+ .others-option i {
+      color:white;
+      margin:0 5px;
+   
+
+  }
+ .others-option .default-btn{
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 18px 35px;
+  line-height: 1;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #df8133;
+  padding: 15px 23px;
+  }
+
+@media  (max-width:991px){
+  .offcanvas-body{
+  background-color: #090909;
+
+}
+}
+
+  /* banner section */
+
+  .banner-section{
+    background-image:url(../assets/images/crop/home.jpg); 
+  height:57rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  position:relative;
+  z-index:1;
+
+  }
+
+
+  .banner-section::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    background: rgba(5, 5, 6, 0.484);
+    width:100%;
+    height:100%;
+    z-index:-1;
+
+  }
+
+  .fa-solid{
+    color:#df8133;
+    font-size: x-large;
+  }
+.banner-section h1{
+font-size:6rem;
+position: absolute;
+top:35%;
+left:14%;
+right: 15%;
+text-align: center;
+z-index:1;
+color:white;
+
+
+  }
+  
+.banner-description button{
+  background-color:#df8133 ;
+  border: none;
+  height:4rem;
+  width:10rem;
+padding: 0.5rem;
+font-size: 1.5rem;
+margin-top:2rem;
+color:white;
+position: absolute;
+top:60%;
+left:44%;
+right: 15%;
+z-index:1;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.banner-description button > a{
+  text-decoration: none;
+  color:white;
+ 
+  
+}
+/* marquee */
+.marquee{
+  padding-block: 4rem;
+}
+.marquee h1{
+font-size: 4rem;
+}
+/* about of home page */
+.home-about{
+background: #161616;
+padding-top: 9rem;
+padding-bottom: 6rem;
+}
+.about-title h5 {
+  color: #df8133;
+  text-transform: uppercase;
+  font-size: px;
+  margin-bottom: 4px;
+  position: relative;
+  display: inline-block;
+}
+.about-title h2 {
+  font-size: 64px;
+ 
+  position: relative;
+  color:white;
+}
+.right-content {
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.about-text .about-content{
+  color:white;
+  margin-top:1.3rem;
+}
+.about-text button{
+  background-color:#df8133 ;
+  border: none;
+padding: 1rem;
+font-size: 1rem;
+margin-top:2rem;
+}
+
+.about-text button > a{
+  text-decoration: none;
+  color:white;
+ 
+ 
+  
+}
+
+/* services */
+.servicepage-services .services-heading{
+  padding-bottom: 3rem;
+}
+.servicepage-services .services-heading h4{
+  color:#df8133;
+  font-size:1.5rem;
+
+}
+
+.servicepage-services .services-heading p{
+  color:white;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.section-title h5 {
+  color: #df8133;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+.line {
+  float: left;
+  margin-right: 15px;
+}
+
+.section-title h2 {
+  font-size: 64px;
+  padding-bottom: 0;
+  margin-bottom: 15px !important;
+  position: relative;
+}
+.s-single-services {
+  transition: .3s;
+  background: #1e1e1e;
+  padding: 30px;
+  display: flex;
+}
+
+.s-single-services .services-icon {
+  width: 70%;
+}
+
+.services-icon img {
+  display: inline-block;
+}
+.second-services-content h5 {
+  transition: .3s;
+  letter-spacing: 0;
+  font-size: 26px;
+  color: #fff;
+}
+.second-services-content a {
+  color: #000f38;
+  transition: all 0.3s ease 0s;
+}
+.second-services-content p {
+  margin-bottom: 0;
+ }
+
+
+/* PROCESS */
+.process{
+position: relative;
+background: url(../assets/images/steps-bg.png);
+padding-top: 7rem;
+padding-bottom:7rem;
+}
+
+.process-detail {
+  padding-left: 30px;
+}
+.process-detail ul{
+  margin: 0;
+  padding: 0;
+}
+.process-img {
+  margin-left: -315px;
+}
+.section-title{
+  margin-bottom: 35px;
+}
+
+.section-title h5 {
+  color: #df8133;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 4px;
+  position: relative;
+  display: inline-block;
+}
+.section-title h2 {
+  font-size: 64px;
+  position: relative;
+  color:white;
+}
+.step-box .date-box {
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+  text-align: center;
+  position: relative;
+  float: left;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 60px;
+  border-left: 1px solid #df8133;
+  border-bottom: 1px solid #df8133;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-box .date-box::before {
+  content: "";
+  width: 90px;
+  height: 90px;
+  left: -10px;
+  border-right: 1px solid #df8133;
+  position: absolute;
+  top: 10px;
+  border-top: 1px solid #df8133;
+}
+.step-box{
+  display: flex;
+
+  margin-top:0.5rem;
+}
+.step-box .text h3{
+  font-size: 1.4rem;
+}
+.step-box .text p{
+  font-size: 0.9rem;
+}
+.step-box .text{
+  color:white;
+  padding-top: 0.9rem;
+  
+ 
+}
+
+
+
+/* choose us */
+
+.choose-us{
+  background:url(../assets/images/teams/bg.jpg);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.choose-us:before{
+  content: "";
+  height: 100%;
+  width:100%;
+  background-color: #09090999;
+  z-index:-1;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.choose-us .choose-first{
+  background-color: #1e1e1e;
+  text-align: center;
+  padding-top: 4rem;
+  padding-top:2rem;
+  
+  
+}
+.choose-us .choose-first p{
+  padding: 0 2rem 2rem 2rem;
+}
+.choose-heading{
+  padding-bottom:3rem;
+}
+.choose-heading h1{
+  color:white;
+  font-weight: bold;
+}
+.choose-us .choose-first h4{
+ color:#df8133;
+ font-size: 1.3rem;
+ 
+}
+.choose-us .choose-first p{
+  margin-top: 1rem;
+  color:white;
+}
+
+
+  /* testimonial */
+  .testimonial{
+    padding-block: 6rem;
+    background: url(../assets/images/about/testimonial-bg.png);
+  }
+  .testimonial .tab-content .tab-pane{
+  
+    background: #161616;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+  
+  }
+  .testimonial-img img{
+  border: 3px solid #ccc;
+  }
+   .testimonial-img:hover img{
+
+  border: 3px solid #df8133;
+  transform: scale(1.15);
+  } 
+  .tab-pane p{
+    color:#a1a1a1;
+  }
+  .tab-pane h3{
+    color:white;
+  }
+  .tab-pane h6{
+    color:#df8133;
+  }
+  .testimonial-title{
+    padding-bottom: 2rem;
+  }
+  .testimonial-title h4{
+    color:#df8133;
+  }
+  .testimonial-title h1{
+    color:white;
+    font-size: 3rem;
+  }
+
+/* home project */
+
+.homeproject{
+  background: url(../assets/images/project/slide.webp);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index:1;
+  padding-bottom: 10rem;
+}
+
+.homeproject:before{
+  content:"";
+  position: absolute;
+  left:0;
+  top:0;
+  background: rgba(21, 21, 22, 0.815);
+  width:100%;
+  height:100%;
+  z-index:-1;
+
+}
+.homeproject .project-img{
+  padding-top: 1rem;
+ 
+  z-index:99;
+
+}
+.homeproject .project-img::before{
+  content: "";
+  height:0.6rem;
+  width:10rem;
+  background-color: #df8133;
+  position:absolute;
+  top:30%;
+  left:20.7%;
+  z-index: -1;
+}
+
+@media  (1200px <= width <= 1920px){
+  .homeproject .home_project_title h3{
+    z-index:999;
+    color:#df8133;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  visibility: hidden;
+  }
+  
+}
+@media (max-width:1200px){
+  .homeproject .home_project_title h1{
+    
+    display: none;
+  }
+}
+@media  (max-width:1919px){
+.homeproject .project-img::before{
+  display: none;
+
+
+}
+}
+
+.homeproject .project-img h6{
+  color:white;
+  padding-top: 0.6rem;
+}
+.homeproject .project-img img{
+  height:18rem;
+  width:30rem;
+}
+.homeproject .home_project_title h3{
+  z-index:999;
+  color:#df8133;
+  font-weight: bold;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+
+}
+.homeproject .home_project_title h1{
+  z-index:999;
+  color:white;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+
+
+/* team */
+
+.team{
+  background-color: #090909;
+  padding-top:4rem;
+  padding-bottom: 10rem;
+  position: relative;
+  background-image: url(../assets/images/teams/teambg.png);
+}
+
+.team .team-heading h2{
+  color:#df8133;
+  font-size:1.4rem;
+}
+
+.team .team-heading p{
+  color:white;
+  font-size:2rem;
+  font-weight: bold;
+}
+.team .detail{
+
+ background-color: black;
+}
+.team .detail{
+  padding-top: 3rem;
+}
+
+.team .member-detail {
+  color: white;
+ /* position: absolute;
+ top:20rem;
+ left:20rem; */
+ padding-top:6px;
+ padding-bottom:6px;
+
+  background-color: #df8133;
+ 
+}
+.team .member-detail p{
+  margin-bottom: 0rem;
+ }
+.team .member-detail h5{
+ margin-bottom: 0rem;
+}
+  /* about page------------------------------ */
+  .about-banner{
+    position: relative;
+  }
+.about-banner{
+  background:url(../assets/images/crop/d.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ height:38rem;
+ z-index:1;
+ width:100%;
+/* margin-top:-14rem; */
+margin-left:0px;
+margin-right:0px;
+
+}
+.about-banner :before{
+  content:"";
+  position: absolute;
+  left:0;
+  top:0;
+  background: rgba(38, 38, 42, 0.098);
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+.owl-nav .owl-next{
+  display: none;
+}
+.owl-nav .owl-prev{
+  display: none;
+}
+.about-banner .about-banner-img h4{
+  position:absolute;
+  top:47%;
+  left:43%;
+   
+   color:white;
+   font-size: 3rem;
+   font-weight: bold;
+  
+}
+.about-us .about-detail{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.about-us .about-content p{
+  margin-top:1rem;
+  text-align: justify;
+  padding-right:4rem;
+}
+.about-us .about-content h4{
+  font-size: 4rem;
+  font-weight: bold;
+  color:#df8133;
+}
+.about-us{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #161616;
+  color:white;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* ----------------------------------------------------------contact page----------------------------------------------------------------------- */
+
+.contact-banner{
+  position: relative;
+}
+.contact-banner{
+  background-image: url(../assets//images/crop/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ height:38rem;
+ z-index:1;
+/* margin-top:-14rem; */
+
+}
+.message-email p{
+  margin-bottom: 0px;
+}
+.contact-banner::before{
+  content:"";
+  position: absolute;
+  left:0;
+  top:0;
+  background: rgba(5, 5, 6, 0.555);
+  width:100%;
+  height:100%;
+
+
+}
+
+.contact-description h2{
+position:absolute;
+top:45%;
+left:43%;
+ color:white;
+ font-size: 3rem;
+ font-weight: bold;
+
+}
+
+/* map location */
+
+.map-location{
+  position:relative;
+
+}
+.map{
+  height:30rem;
+  padding: 0px;
+  margin:0px;
+}
+.map-img{
+  padding: 0px;
+  margin:0px;
+  width:100%;
+  height:100%;
+
+}
+ /* contact area */ 
+
+ .contact-area{
+  background-color: #161616;
+  position:relative;
+ 
+padding-top: 6rem;
+padding-bottom: 6rem;
+ }
+
+ .contact-info{
+  color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ 
+ }
+ .contact-info .map-icon-svg, .contact-info .hours-icon-svg,.contact-info .message-icon{
+  height:5rem;
+  width:5rem;
+  border:none;
+  border-radius:50%;
+  background-color: #df8133;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+ .message-email, .work-hour , .office-address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left:4rem;
+  padding-right:4rem;
+ }
+
+ @media(max-width:1400px){
+  
+ .contact-info .map-icon-svg, .contact-info .hours-icon-svg,.contact-info .message-icon{
+  height:4rem;
+  width:4rem;
+  border:none;
+  border-radius:50%;
+  background-color: #df8133;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+
+ .break{
+  display: none;
+ }
+ }
+ /* form */
+  .form-section{
+    background-color: #1e1e1e;
+    position: relative;
+  
+   padding-top: 8rem;
+   padding-bottom: 8rem;
+  } 
+ 
+  .form-section .contact-heading h4{
+    color:#dc8f09;
+  }
+  .form-section .contact-heading p{
+    font-size: 4rem;
+    font-family: bold;
+    color:white;
+    line-height: 1;
+  }
+  .form-section form{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+  }
+  .form-section .upper-input input{
+   border:none;
+   margin-right:1rem;
+   border: 1px solid #161616;
+   background: #161616;
+   color: #fff;
+   width:25rem;
+   height:3.5rem;
+   margin-top:1rem;
+  }
+  .form-section .upper-input input[type="text"]{
+    color:white;
+    padding-left: 2rem;
+    font-size: 1rem;
+   }
+
+  .form-section .bottom-input input{
+    border:none;
+    margin-right:1rem;
+    border: 1px solid #161616;
+    background: #161616;
+    color: #fff;
+    width:25rem;
+    height:3.5rem;
+    margin-top:1rem;
+   }
+   .form-section .bottom-input input[type="text"]{
+    color:white;
+    padding-left: 2rem;
+    font-size: 1rem;
+   }
+   .form-section .middle-input input{
+    border:none;
+    margin-right:1rem;
+    border: 1px solid #161616;
+    background: #161616;
+    color: #fff;
+    width:50.9rem;
+    height:3.5rem;
+    margin-top:1rem;
+   }
+    
+   .form-section .middle-input input[type="text"]{
+    color:white;
+    padding-left: 2rem;
+    font-size: 1rem;
+   } 
+
+   .form-section .message-wrap textarea{
+    width:50.9rem;
+    border: 1px solid #161616;
+    background: #161616;
+    color: #fff;
+   
+   }
+   .form-section .message-wrap textarea[name="message"]{
+    color:white;
+    padding-left: 2rem;
+    padding-top:1rem;
+    font-size: 1rem;
+   }
+   .form-section .contact-btn .btn-contact{
+    border:none;
+    background: #df8133;
+    color: #fff;
+    height:3.5rem;
+    width: 50.9rem;
+    font-size:1.2rem;
+    margin-top:1.2rem;
+    margin-top:1rem;
+   }
+  
+/* footer */
+
+.footer {
+background:url(../assets/images/footer_bg.png);
+padding: 2rem 0 4rem 0 ;
+position: relative;
+
+
+}
+.footer .footer-widget p{
+  color:rgb(177, 175, 175);
+  font-size: 1rem;
+}
+
+.footer .f-widget-title h2{
+  font-size:1.5rem;
+  color:white;
+  position: relative;
+}
+.footer .f-widget-title h2::before{
+  content: "";
+  height:0.1rem;
+  position: absolute;
+  width:3rem;
+  background-color:#df8133;
+  top:2rem;
+}
+.footer .footer-links{
+  margin-top:1.6rem;
+}
+.footer .footer-links ul{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer .footer-links ul li{
+  list-style: none;
+  padding-left:0px;
+  margin: 0.7rem 0rem 0rem 0rem;
+  display:flex;
+ 
+  flex-direction:column;
+  justify-content:start;
+}
+.footer .footer-links ul li a {
+  text-decoration: none;
+  color:rgb(177, 175, 175);
+  font-size:1.1rem;
+}
+
+.footer .email-submit {
+  margin-top:1.5rem;
+  position: relative;
+ 
+
+}
+
+.footer .email-submit input{
+  height:3.6rem;
+  width:15rem;
+}
+.footer .email-submit input[type="email"]{
+  padding-left:1rem;
+}
+.footer .email-submit i{
+  color:black;
+  font-size:2rem;
+  background-color: #df8133;
+  height:3.6rem;
+  width:4rem;
+  position: absolute;
+  left:14rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.newsletter .social-media{
+  margin-top:2rem;
+}
+.newsletter .social-media a {
+  margin:0.5rem;
+  
+}
+.newsletter .social-media a i{
+  color:white;
+  width:2.5rem;
+  height:2.5rem;
+  background-color: #343333;
+  padding:0.8rem;
+}
+
+.contact-number , .id-address , .location-address{
+  border:1px solid rgb(242, 232, 207);
+  display: flex;
+
+}
+.footer .contact-number .contact-icon{
+  width: 3.5rem;
+  height:3.5rem;
+  background-color: #df8133;
+
+}
+.footer .contact-number .contact-icon svg{
+ position: absolute;
+ top:1.4rem;
+ left:1.5rem;
+}
+
+.footer .contact-number .calling p{
+  color:white;
+  font-size: 1rem;
+}
+.footer .contact-number .calling h5{
+  color:white;
+  font-size: 1.1rem;
+}
+
+.footer .contact-number{
+  padding: 1.4rem 1.4rem 0.7rem 1.4rem;
+  position:relative;
+}
+
+.footer .id-address  .email-icon{
+  width: 3.5rem;
+  height:3.5rem;
+  background-color: #df8133;
+
+
+}
+.footer .id-address  .email-icon > svg{
+ position: absolute;
+ top:2.1rem;
+ left:2rem;
+}
+
+.footer .id-address  .email-id p{
+  color:white;
+  font-size: 1rem;
+}
+.footer .id-address  .email-id h5{
+  color:white;
+  font-size: 1.1rem;
+}
+
+.footer .id-address {
+  
+  padding: 1.4rem 1.4rem 0.7rem 1.4rem;
+ position: relative;
+}
+
+
+.footer .location-address  .location-icon{
+  width: 3.5rem;
+  height:3.5rem;
+  background-color: #df8133;
+ 
+
+}
+.footer .location-address  .location-icon > svg{
+ position: absolute;
+ top:2.2rem;
+ left:2rem;
+}
+
+.footer .location-address  .full-address p{
+  color:white;
+  font-size: 1rem;
+}
+.footer .location-address  .full-address h5{
+  color:white;
+  font-size: 1.1rem;
+}
+
+.footer .location-address {
+  padding: 1.4rem 1.4rem 0.7rem 1.4rem;
+  position:relative;
+}
+
+/* ----------------------------------------------------------project page----------------------------- */
+
+.project-banner{
+  position: relative;
+}
+  .project-banner{
+    background: url(../assets/images/crop/project.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:38rem;
+    background-position: center;
+
+  
+  }
+  .project-banner::before{
+    content: "";
+    position: absolute;
+    background: rgba(5, 5, 6, 0.415);
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+  }
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top:55%;
+    left:45%;
+    color:white;
+    font-size:3rem;
+    font-weight: bold;
+  }
+
+  /* gallery images */
+.gallery-tabs {
+  position: relative;
+
+}
+.furniture-service{
+  position: relative;
+  top:-4rem;
+}
+
+.furniture-service button {
+  text-align: center;
+  display: inline-block;
+  max-width: 125px;
+  margin: 0 8px;
+}
+
+.furniture{
+ background-color: #1e1e1f;
+ padding: 12px;
+ border-radius: 0.3rem;
+ 
+}
+.four-img{
+  width:100%;
+  height:14.5rem;
+}
+@media (max-width:1400px){
+  .four-img{
+    width:100%;
+    height:12.5rem;
+  }
+}
+@media (max-width:1200px){
+  .four-img{
+    width:100%;
+    height:10.5rem;
+  }
+}
+@media (max-width:992px){
+  .four-img{
+    width:100%;
+    height:100%;
+  }
+}
+
+ .furniture h3{
+  font-size: 1rem;
+  color:white;
+  margin-top:0.5rem;
+}
+
+ .bedroom .butterfly{
+margin-top: 1.73rem;
+}
+.two-img{
+ margin-top:1.5rem;
+}
+.kitchen-two{
+  margin-top: 2rem;
+}
+.waiting-img{
+  margin-top: 1.5rem;
+}
+ 
+
+
+/* project */
+.project-footer{
+  margin-top:4rem;
+}
+/* -----------------------------------------------------------services page------------------------------------------------------------ */
+
+ .service-banner{
+  position: relative;
+ }
+ .services-banner {
+  background: url(../assets/images/crop/services.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height:38rem;
+  background-position: center;
+  /* margin-top:-23rem; */
+  z-index:9;
+
+ }
+ .services-banner::before{
+  content: "";
+  position: absolute;
+  background-color: #3433333b;
+  background: rgba(5, 5, 6, 0.484);
+  width:100%;
+  height:66.5%;
+  left:0;
+  top:0;
+ }
+ .services-banner .services-banner-img h4{
+  position: absolute;
+  top:30%;
+  left:47%;
+  color:white;
+  font-size:3rem;
+  font-weight: bold;
+ }
+ .servicepage-services{
+  background: url(../assets/images/service/service-bg.png);
+ 
+  padding-top:6rem ;
+  padding-bottom: 6rem;
+  padding-left: 3rem;
+  padding-right:3rem;
+  position: relative;
+ }
+ .servicepage-services .single-services {
+
+  background: #1e1e1e;
+  padding: 2rem 0.5rem 1rem 2rem;
+ }
+ .servicepage-services .single-services .services-icon{
+
+width:60%;
+ }
+ .servicepage-services .single-services .services-content{
+   color:white;
+ 
+ }
+ .servicepage-services .offer-services h5{
+  font-size: 3rem;
+  color:white;
+  
+ }
+ .row-gap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+ }
+ .servicepage-services .line{
+  height: 0.2rem;
+  width:5rem;
+  background-color: #dc8f09;
+
+ }
+ .servicepage-services .offer-content p{
+  font-size: 1.1rem;
+  color:white;
+ }
+
+
+
+ .img-fluid{
+  height:auto;
+  width:100%;
+}
+
+
+
+.text-p a{
+  color:red !important;
+  text-decoration:underline !important;
+}
+.text-p p {
+  text-align:justify;
+  font-weight:bold;
+  color:white;
+}
+.bold-num h3{
+  color:white;
+}
+.bold-num h1{
+  color:#df8133;
+  font-weight:bold;
+  font-size:7rem;
+
+}
+
+
+ /* responsive */
+
+ @media (max-width:1875px){
+  .footer .id-address {
+    padding: 1.4rem 6.8rem 0.7rem 1.4rem;
+    position: relative;
+}
+.footer .contact-number {
+  padding: 1.4rem 2.8rem 0.7rem 1.4rem;
+  position: relative;
+}
+ }
+@media (992px <= width <= 1400px){
+  .footer .id-address {
+    padding: 1.4rem 3rem 0.7rem 1.4rem;
+    position: relative;
+}
+.footer .contact-number {
+  padding: 1.4rem 2.4rem 0.7rem 1.4rem;
+  position: relative;
+}
+.footer .location-address .full-address p {
+  color: white;
+  font-size: 0.8rem;
+}
+.footer .contact-number .calling p {
+  color: white;
+  font-size: 0.8rem;
+}
+.footer .id-address .email-id p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+ }
+ @media(992px <= width <= 1200px){
+  .others-option .default-btn{
+    font-size: 16px;
+    padding: 15px 18px;
+  }
+ }
+ @media (max-width:1400px){
+  .about-us .about-content h4 {
+    font-size: 3.5rem;
+  }
+ }
+ @media (max-width:1200px){
+  .about-us .about-content h4 {
+    font-size: 3rem;
+   
+  }
+ }
+
+ @media (1373px <= width <= 1920px){
+  .footer .id-address {
+    padding: 1.4rem 6.4rem 0.7rem 1.4rem;
+    position: relative;
+}
+.footer .contact-number {
+  padding: 1.4rem 2.4rem 0.7rem 1.4rem;
+  position: relative;
+}
+ }
+
+
+@media (1199px <= width <= 1030px){
+
+  .footer .email-submit i {
+    color:black;
+  font-size:2rem;
+  background-color: #df8133;
+  height:3.6rem;
+  width:4rem;
+  position: absolute;
+  left:12rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  }
+ 
+}
+
+@media (1030px <= width <= 1200px){
+
+  .footer .email-submit i {
+    position: absolute;
+    left: 11rem;
+  }
+}
+
+@media (992px <= width <= 1029px){
+
+  .footer .email-submit i {
+    position: absolute;
+    left: 10rem;
+  }
+}
+
+@media (max-width:991px){
+
+  .footer .email-submit i {
+    position: absolute;
+    left: 12rem;
+  }
+}
+@media (max-width:991px){
+.process-img{
+  margin-left:0px;
+}
+}
+@media (max-width: 576px) {
+ .process-detail {
+      padding-top: 3rem !important;
+  }
+  .footer .contact-number,.id-address , .location-address {
+  
+    width: 29rem;
+}
+}
+@media (max-width: 463px) {
+  .section-title h2 {
+    font-size: 55px;
+    position: relative;
+    color: white;
+}
+ }
+ @media (max-width: 430px) {
+  .section-title h2 {
+    font-size: 29px;
+    position: relative;
+    color: white;
+}
+.footer .id-address {
+  padding: 1.4rem 2rem 0.7rem 1.4rem;
+  position: relative;
+}
+ }
+ 
+ @media (max-width: 1000px){
+ .testimonial .tab-content .tab-pane {
+ 
+  width: 80%;
+}
+.about-us .about-content p{
+  padding-right: 0rem;
+ }
+ .about-image{
+   padding-top:2rem;
+ }
+ .about-banner .about-banner-img h4{
+  position: fixed;
+    top: 60%;
+    left: 41%;
+ }
+
+ }
+
+ @media (max-width: 767px){
+  .testimonial .tab-content .tab-pane {
+  
+   width: 100%;
+ }
+
+ .about-us .about-content h4 {
+  font-size: 3rem;
+ }
+  }
+
+
+  @media (max-width: 991px){
+    .testimonial .tab-content .tab-pane {
+    
+      margin-top: 1.7rem;
+   }
+   .right-content{
+    padding-top:4rem;
+   }
+   .process-detail{
+    padding-top:4rem;
+   }
+   .section-title h2 {
+    font-size: 51px;
+    }
+    .footer .services{
+      padding-top:2rem;
+    }
+    .footer .newsletter{
+      padding-top:2rem;
+    }
+  }
+
+  @media (max-width:516px){
+    .testimonial-title h4{
+      font-size:0.6rem;
+     }
+  }
+
+    @media (max-width: 1626px){
+    .banner-description h1 {
+       font-size: 5rem;
+       position: absolute;
+       top: 38%;
+       left:13%;
+    }
+    .banner-description button{
+      position: absolute;
+        left:44%;
+     }
+  }
+  
+  @media (max-width: 1480px){
+    .banner-description h1 {
+       font-size: 5rem;
+       position: absolute;
+       top: 38%;
+       left:13%;
+    }
+    .banner-description button{
+      position: absolute;
+        left:42%;
+     }
+  }
+  @media (max-width: 1360px){
+    .banner-description h1 {
+       font-size: 4rem;
+       position: absolute;
+       top: 43%;
+    }
+   
+  }
+
+  @media (max-width: 1029px){
+    .banner-description h1 {
+       font-size: 4rem;
+       position: absolute;
+       top: 43%;
+    }
+    .banner-description button{
+     position: absolute;
+       left:44%;
+    }
+   
+  }
+
+  
+  @media (max-width: 803px){
+  
+    .about-banner .about-banner-img h4{
+      position: absolute;
+        top: 60%;
+        left: 39%;
+     }
+  }
+  
+  @media (max-width: 687px){
+  
+    .banner-description button{
+     position: absolute;
+       left:39%;
+    }
+   
+  }
+  @media (max-width: 602px){
+    .banner-description h1 {
+       font-size: 2.8rem;
+       position: absolute;
+       top: 48%;
+       left: 13%;
+      
+    }
+     .banner-description button{
+     position: absolute;
+       left:36%;
+    }
+   
+    .about-banner .about-banner-img h4{
+      position: absolute;
+        top: 60%;
+        left: 34%;
+     }
+  }
+  
+  
+
+  
+
+  @media (max-width: 530px){
+    .banner-description h1 {
+       font-size: 1.8rem;
+       position: absolute;
+    top: 54%;
+      
+    }
+    .banner-description button{
+     position: absolute;
+       left:38%;
+       height:3rem;
+         width:8rem;
+         font-size: 1.2rem;
+    }
+   
+  }
+
+   
+  @media (max-width: 452px){
+    .banner-description h1 {
+       font-size: 1.5rem;
+       position: absolute;
+       top: 55%;
+      
+    }
+    .banner-description button{
+         height:3rem;
+         width:8rem;
+         font-size: 1.2rem;
+         left:36%;
+     }
+  }
+@media (max-width: 432px){
+    .banner-description h1 {
+       font-size: 1.5rem;
+       position: absolute;
+     top: 55%;
+      
+      }
+    }
+  
+  @media (max-width: 418px){
+    .banner-description h1 {
+       font-size: 1.5rem;
+       position: absolute;
+       top: 55%;
+      
+    }
+    .banner-description button{
+     position: absolute;
+       left:33%;
+    }
+   
+  }
+  @media (max-width: 402px){
+    .banner-description h1 {
+       font-size: 1.7rem;
+    }
+  }
+ 
+
+  @media (max-width: 703px){
+    .servicepage-services .services-heading p {
+       font-size:2.5rem;
+    }
+    
+    .contact-description h2 {
+      position: absolute;
+      top: 40%;
+      left: 32%;
+    }
+  }
+  @media (max-width: 621px){
+    .servicepage-services .services-heading p {
+       font-size:2rem;
+    }
+    .contact-description h2 {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+    }
+  }
+  @media (max-width: 540px){
+    .servicepage-services .services-heading p {
+       font-size:1.6rem;
+    }
+    .servicepage-services .services-heading h4 {
+      color: #df8133;
+      font-size: 1.2rem;
+    }
+    .services-banner .services-banner-img h4 {
+      position: absolute;
+      top: 34%;
+      left: 35%;
+    }
+    .about-banner .about-banner-img h4{
+      position: absolute;
+        top: 60%;
+        left: 30%;
+     }
+  }
+  @media (max-width:500px){
+    .services-banner .services-banner-img h4 {
+      position: absolute;
+      top: 34%;
+      left: 32%
+    }
+  }
+  @media (max-width:510px){
+    .services-banner .services-banner-img h4 {
+      position: absolute;
+      top: 34%;
+      left: 31%
+    }
+  }
+  @media(max-width:595px){
+    .servicepage-services .offer-services h5 {
+      font-size: 2rem;
+      color: white;
+  }
+  .servicepage-services .offer-content p {
+    font-size: 0.9rem;
+    color: white;
+    padding-top:1rem;
+}
+  }
+  @media (max-width: 459px){
+    .servicepage-services .services-heading p {
+       font-size:2rem;
+    }
+    .about-us .about-content h4 {
+      font-size: 2.5rem;
+    }
+    .servicepage-services .offer-services h5 {
+      font-size: 1.5rem;
+      color: white;
+  }
+  .choose-heading h1{
+    font-size: 1.5rem;
+  }
+  }
+ 
+  @media (max-width:476px){
+  .right-content .about-text .about-title h2{
+    font-size: 1.7rem;
+  }
+  .testimonial .testimonial-title h4{
+    font-size: 17px;
+  }
+  .testimonial .testimonial-title h1{
+    font-size: 1.7rem;
+  }
+}
+@media (max-width:420px){
+  .right-content .about-text .about-content p{
+    font-size: 0.9rem;
+  }
+  .right-content .about-text .about-title h2{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:430px){
+  .process .process-detail .section-title h2{
+    font-size: 28px;
+  }
+}
+  @media (max-width:488px){
+
+    @media (max-width:500px){
+      .services-banner .services-banner-img h4 {
+        position: absolute;
+        top: 34%;
+        left: 30%
+      }
+      
+   
+    }
+  }
+  
+  @media (max-width:400px){
+    @media (max-width:500px){
+      .services-banner .services-banner-img h4 {
+        position: absolute;
+        top: 34%;
+        left: 25%
+      }
+    }
+  }
+
+  @media (max-width: 475px){
+    .servicepage-services .services-heading p {
+       font-size:1.7rem;
+       
+    }
+    .servicepage-services .services-heading h4 {
+      color: #df8133;
+      font-size: 1rem;
+    }
+   
+  }
+ 
+  @media (max-width: 412px){
+    .servicepage-services .services-heading p {
+       font-size:1.7rem;
+    }
+  }
+  @media (max-width: 499px){
+    .footer .contact-number,.id-address , .location-address {
+  
+      width: 26rem;
+  }
+
+  }
+  @media (max-width: 430px){
+    .footer .contact-number,.id-address , .location-address {
+  
+      width: 24rem;
+  }
+
+
+  }
+ 
+  @media (max-width: 421px){
+    .footer .contact-number,.id-address , .location-address {
+  
+      width: 22rem;
+  }
+  .footer .contact-number {
+    padding: 1.4rem 1rem 0.7rem 1.4rem;
+    position: relative;
+}
+.footer .location-address {
+  padding: 1.4rem 0.3rem 0.7rem 1.4rem;
+  position: relative;
+}
+.footer .location-address .full-address p {
+  color: white;
+  font-size: 0.9rem;
+}
+.footer .contact-number .calling p {
+  color: white;
+  font-size: 0.9rem;
+}
+  }
+  @media (max-width: 360px){
+    .footer .contact-number,.id-address , .location-address {
+  
+      width: 20rem;
+  }
+  .about-banner .about-banner-img h4{
+    position: absolute;
+      top: 60%;
+      left: 26%;
+   }
+  }
+  @media (max-width: 1241px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 41%;
+  }
+}
+@media (max-width: 959px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 39%;
+  }
+}
+@media (max-width: 797px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+  }
+}
+@media (max-width: 717px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 32%;
+  }
+}
+@media (max-width: 531px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 29%;
+  }
+}
+@media (max-width: 475px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+  }
+}
+@media (max-width: 437px){
+
+  
+  .contact-description h2 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+  }
+}
+@media (max-width:870px){
+  .form-section .upper-input input{
+    width:22rem;
+  }
+  .form-section .bottom-input input{
+    width:22rem;
+  }
+  .form-section .middle-input input{
+    width:44.9rem;
+  }
+  .form-section .message-wrap textarea{
+    width:44.9rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:44.9rem;
+  }
+}
+@media (max-width:787px){
+  .project-banner .project-banner-img h4 {
+      position: absolute;
+  
+      left: 42%;
+  
+  }
+  }
+@media (max-width:767px){
+  .about-title h5{
+    font-size:1rem;
+  }
+  .about-title h2{
+    font-size: 2rem;
+    padding-top: 0.7rem;
+  }
+  .about-text button {
+    background-color: #df8133;
+    border: none;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  .section-title h2 {
+    font-size: 38px;
+    }
+    .testimonial-title h4{
+     font-size:1.3rem;
+    }
+    .testimonial-title h1 {
+      color: white;
+      font-size: 2.3rem;
+  }
+  .form-section .upper-input input{
+    width:38rem;
+    margin-bottom: 0.9rem ;
+  }
+  .form-section .bottom-input input{
+    width:38rem;
+    margin-bottom: 0.9rem ;
+  }
+  .form-section .middle-input input{
+    width:37.9rem;
+
+  }
+  .form-section .message-wrap textarea{
+    width:37.9rem;
+    
+  }
+  .form-section .contact-btn .btn-contact{
+    width:37.9rem;
+   
+  }
+   .footer .page-links{
+    padding-top:2rem;
+  }
+}
+
+
+@media (max-width:671px){
+  .form-section .upper-input input{
+    width:35rem;
+    margin-bottom: 0.9rem ;
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+  .step-box .date-box {
+    width: 70px;
+    height: 70px;
+  }
+  .step-box .date-box::before {
+    content: "";
+    width: 70px;
+    height: 70px;
+  }
+  .form-section .bottom-input input{
+    width:35rem;
+    margin-bottom: 0.9rem ;
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+  .form-section .middle-input input{
+    width:34.9rem;
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+  .form-section .message-wrap textarea{
+    width:34.9rem;
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:34.9rem;
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+}
+
+
+@media (max-width:628px){
+  .form-section .upper-input input{
+    width:30rem;
+    margin-bottom: 0.9rem ;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:5rem;
+  }
+  .form-section .bottom-input input{
+    width:30rem;
+    margin-bottom: 0.9rem ;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:5rem;
+  }
+  .form-section .middle-input input{
+    width:30rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:5rem;
+  }
+  .form-section .message-wrap textarea{
+    width:30rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:30rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:5rem;
+   
+  }
+}
+@media (max-width:619px){
+  .form-section .upper-input input{
+    width:30.5rem;
+    margin-bottom: 0.9rem ;
+
+    margin-left:3rem;
+  }
+  
+  .form-section .bottom-input input{
+    width:30.5rem;
+    margin-bottom: 0.9rem ;
+ 
+    margin-left:3rem;
+  }
+  .form-section .middle-input input{
+    width:30.8rem;
+ 
+    margin-left:3rem;
+  }
+  .form-section .message-wrap textarea{
+    width:30.8rem;
+
+    margin-left:3rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:30.8rem;
+    padding-left:0rem;
+    padding-right:0rem;
+    margin-left:3rem;
+  }
+}
+
+@media (max-width:556px){
+  .form-section .upper-input input{
+    width:28.5rem;
+    margin-bottom: 0.9rem ;
+
+    margin-left:2rem;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    }
+  .form-section .bottom-input input{
+    width:28.5rem;
+    margin-bottom: 0.9rem ;
+
+    margin-left:2rem;
+  }
+  .form-section .middle-input input{
+    width:28.5rem;
+ 
+    margin-left:2rem;
+  }
+  .form-section .message-wrap textarea{
+    width:28.5rem;
+   
+    margin-left:2rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:28.5rem;
+
+    margin-left:2rem;
+  }
+}
+
+
+@media (max-width:535px){
+  .form-section .upper-input input{
+    width:28.5rem;
+
+    margin-left:1.5rem;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    }
+  .form-section .bottom-input input{
+    width:28.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .middle-input input{
+    width:28.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .message-wrap textarea{
+    width:28.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:28.5rem;
+    margin-left:1.5rem;
+  }
+}
+@media (max-width:653px){
+  .project-banner .project-banner-img h4 {
+      position: absolute;
+      left: 40%;
+      
+  }
+  } 
+
+@media (max-width:500px){
+  .form-section .upper-input input{
+    width:25.5rem;
+    margin-left:1.5rem;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    }
+  .form-section .bottom-input input{
+    width:25.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .middle-input input{
+    width:25.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .message-wrap textarea{
+    width:25.5rem;
+    margin-left:1.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:25.5rem;
+
+    margin-left:1.5rem;
+  }
+}
+
+
+@media (max-width:460px){
+  .form-section .upper-input input{
+    width:21.5rem;
+    margin-left:2.5rem;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    }
+  .form-section .bottom-input input{
+    width:21.5rem;
+    margin-left:2.5rem;
+  }
+  .form-section .middle-input input{
+    width:21.5rem;
+    margin-left:2.5rem;
+  }
+  .form-section .message-wrap textarea{
+    width:21.5rem;
+   
+    margin-left:2.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:21.5rem;
+    
+    margin-left:2.5rem;
+  }
+}
+
+
+@media (max-width:436px){
+  .form-section .upper-input input{
+    width:22.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.5rem;
+  }
+  .form-section .bottom-input input{
+    width:22.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.5rem;
+  }
+  .form-section .middle-input input{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.5rem;
+   
+  }
+  
+  .form-section .message-wrap textarea{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.5rem;
+  }
+}
+@media (max-width:430px){
+  .form-section .upper-input input{
+    width:22.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .bottom-input input{
+    width:22.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .middle-input input{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+   
+  }
+  
+  .form-section .message-wrap textarea{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:22.8rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+}
+
+@media (max-width:1200px){
+  
+  .banner-section{
+    height: 51rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 42%;
+      height: 3.5rem;
+      width: 9rem;
+      padding: -0.5rem;
+      font-size: 1.2rem; 
+  }
+  
+  .banner-description h1{
+         position: absolute;
+        top: 42%;
+  }
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .servicepage-services{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 3rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 1090px){
+  /* .banner-description h1 {
+     font-size: 4rem;
+     position: absolute;
+     top: 43%;
+  } */
+  .banner-description button{
+   position: absolute;
+     left:42%;
+  }
+ 
+}
+@media (max-width:992px){
+  
+  .banner-section{
+    height: 51rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 42%;
+      height: 3.5rem;
+      width: 9rem;
+      padding: -0.5rem;
+      font-size: 1.2rem; 
+      top:60%;
+  }
+  
+  .banner-description h1{
+         position: absolute;
+        top: 42%;
+  }
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .servicepage-services{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 3rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .contact-description h2{
+    position:absolute;
+    top:49%;
+    left:39%;
+  }
+  .contact-area {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+  }
+  .form-section{
+    position:relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top:48%;
+  }
+
+  .about-banner .about-banner-img h4{
+    position: absolute;
+    top:46%;
+    left:41%;
+  }
+
+
+  @media (max-width: 833px){
+    
+    .banner-description h1 {
+       font-size: 3rem;
+       position: absolute;
+       top: 47%;
+       left:15%;
+    }
+    .banner-description button{
+     position: absolute;;
+     top: 59%;
+       left:40%;
+    }
+   
+  }
+  @media (max-width: 803px){
+    .banner-description h1 {
+       font-size: 2.6rem;
+       position: absolute;
+       top: 48%;
+       left:13%;
+    }
+    .banner-description button{
+     position: absolute;
+       left:42%;
+       height:3rem;
+       width:7rem;
+       padding-top: 0.3rem;
+    }
+   
+  }
+@media (max-width:768px){
+  
+  .banner-section{
+    height: 44rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 43%;
+    top: 57%;
+   
+      font-size: 1.2rem; 
+      
+    
+      height:3rem;
+      width:7rem;
+      padding-top: 0.3rem;
+  }
+  
+  .banner-description h1{
+         position: absolute;
+        top: 46%;
+        left: 17%;
+  }
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  .servicepage-services{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 0rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .contact-description h2 {
+    position: absolute;
+    top: 46%;
+    left: 36%;
+    
+}
+  .contact-banner{
+    height:32rem;
+  }
+  .contact-area {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+  }
+  .form-section{
+    position:relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top:48%;
+  }
+  .homeproject .home_project_title h3 {
+    padding-top: 2rem
+  }
+  .services-banner .services-banner-img h4{
+    position: absolute;
+    top:31%;
+    left:44%;
+  }
+   .about-banner{
+    height: 32rem;
+   }
+   .services-banner{
+    height:31rem;
+   }
+   .about-us {
+    padding-top: 2rem;
+   }
+ .about-banner .about-banner-img h4{
+    position: absolute;
+    top:43%;
+    left:41%;
+  }
+  
+  
+}
+
+
+@media (max-width:576px){
+  
+  .banner-section{
+    height: 44rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 42%;
+    top: 57%;
+    
+    height:3rem;
+    width:7rem;
+    padding-top: 0.3rem;
+  }
+  
+  .banner-description h1{
+         position: absolute;
+        top: 45%;
+        left: 17%;
+  }
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  .servicepage-services{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 0rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .contact-description h2 {
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    font-size: 2.5rem;
+}
+  .contact-banner{
+    height:32rem;
+  }
+  .contact-area {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+  }
+  .form-section{
+    position:relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .project-banner{
+    height:27rem;
+  }
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    font-size: 2.5rem;
+  }
+  .homeproject .home_project_title h3 {
+    padding-top: 2rem
+  }
+  .services-banner .services-banner-img h4{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-size: 2.5rem;
+  }
+   .about-banner{
+    height: 24rem;
+   }
+   .services-banner{
+    height:31rem;
+   }
+   .servicepage-services .row-gap {
+    margin-bottom: 2rem;
+   }
+   .about-us {
+    padding-top: 2rem;
+   }
+ .about-banner .about-banner-img h4{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    font-size: 2.5rem;
+  }
+  
+  
+}
+
+@media (max-width:522px){
+
+  .banner-section{
+    height:35rem;
+      }
+  .banner-description h1{
+         position: absolute;
+        top: 45%;
+        left: 17%;
+        font-size: 2.5rem;
+  }
+}
+
+@media (max-width:501px){
+
+
+  .banner-description h1{
+         position: absolute;
+        top: 45%;
+        left: 17%;
+        font-size: 2.4rem;
+  }
+  
+}
+@media (max-width:481px){
+
+
+  .banner-description h1{
+         position: absolute;
+        top: 45%;
+        left: 17%;
+        font-size: 2.2rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 39%;
+    top: 57%;
+    
+    height:3rem;
+    width:7rem;
+    padding-top: 0.3rem;
+  }
+}
+
+
+@media (max-width:441px){
+
+
+  .banner-description h1{
+         position: absolute;
+        top: 45%;
+        left: 17%;
+        font-size: 2rem;
+  }
+  .banner-description button{
+    position: absolute;
+    left: 38%;
+    top: 57%;
+    height:3rem;
+    width:7rem;
+    padding-top: 0.3rem;
+  }
+}
+
+@media(max-width:430px){
+
+  .banner-section{
+   height:30rem;
+  }
+
+
+  .banner-description h1{
+    position: absolute;
+   top: 46%;
+   left: 17%;
+   font-size: 1.5rem;
+}
+  .banner-description button {
+    position: absolute;
+    left: 41%;
+    top: 53%;
+    height: 2.2rem;
+    width: 5rem;
+    font-size: 1rem;
+    padding-top: 0.3rem;
+  }
+  
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+  .servicepage-services{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title h3{
+    padding-top: 0rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .contact-description h2 {
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    font-size: 1.9rem;
+}
+  .contact-banner{
+    height:20rem;
+  }
+  .contact-area {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+  }
+  .form-section{
+    position:relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .project-banner{
+    height:21rem;
+  }
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 1.9rem;
+  }
+  
+  .services-banner .services-banner-img h4{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    font-size: 1.9rem;
+  }
+   .about-banner{
+    height: 20rem;
+   }
+   .services-banner{
+    height:20rem;
+   }
+   .servicepage-services .row-gap {
+    margin-bottom: 2rem;
+   }
+   .about-us {
+    padding-top: 2rem;
+   }
+ .about-banner .about-banner-img h4{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    font-size: 1.9rem;
+  }
+  
+  .form-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .form-section .upper-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+ 
+ 
+ 
+  .servicepage-services{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 3rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .form-section .bottom-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .middle-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+   
+  }
+  
+  .form-section .message-wrap textarea{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+}
+@media (max-width:412px){
+  .banner-description button {
+    position: absolute;
+    left: 40%;
+    top: 57%;
+    height: 2.2rem;
+    width: 5rem;
+    font-size: 1rem;
+    padding-top: 0.3rem;
+  }
+  
+  .home-about{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+  .servicepage-services{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title h3{
+    padding-top: 0rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .contact-description h2 {
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    font-size: 1.9rem;
+}
+  .contact-banner{
+    height:19rem;
+  }
+  .contact-area {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+  }
+  .form-section{
+    position:relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .project-banner{
+    height:21rem;
+  }
+  .project-banner .project-banner-img h4{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 1.9rem;
+  }
+  
+  .services-banner .services-banner-img h4{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    font-size: 1.9rem;
+  }
+   .about-banner{
+    height: 19rem;
+   }
+   .services-banner{
+    height:19rem;
+   }
+   .servicepage-services .row-gap {
+    margin-bottom: 2rem;
+   }
+   .about-us {
+    padding-top: 2rem;
+   }
+ .about-banner .about-banner-img h4{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    font-size: 1.9rem;
+  }
+  
+  .form-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .form-section .upper-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .banner-section{
+    height:25rem;
+  }
+  .banner-description h1{
+    position: absolute;
+    top:48%;
+  }
+ 
+  .servicepage-services{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .process{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  }
+  .testimonial {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+  .choose-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .homeproject .home_project_title{
+    padding-top: 3rem;
+    
+  }
+  .homeproject{
+    padding-bottom: 4rem;
+  }
+  .team .team-heading p{
+    font-size: 1.5rem;
+  }
+  .form-section .bottom-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .middle-input input{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+   
+  }
+  
+  .form-section .message-wrap textarea{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:21.5rem;
+    margin-bottom: 0.9rem ;
+    margin-left:1.3rem;
+  }
+}
+@media (max-width:409px){
+  .form-section .upper-input input{
+    width:20.5rem;
+    margin-bottom: 0.9rem ;
+   
+  }
+  .form-section .bottom-input input{
+    width:20.5rem;
+    margin-bottom: 0.9rem ;
+  
+  }
+  .form-section .middle-input input{
+    width:20.8rem;
+    margin-bottom: 0.9rem ;
+   
+  }
+  
+  .form-section .message-wrap textarea{
+    width:20.8rem;
+    margin-bottom: 0.9rem ;
+  }
+  .form-section .contact-btn .btn-contact{
+    width:20.8rem;
+    margin-bottom: 0.9rem ;
+  }
+}
+
+.footer .contact-number .contact-icon svg{
+  height:3.5rem;
+   width:3.7rem;
+   left:1.5rem;
+}
+
+@media(990px <= width <=1200px){
+
+.footer .contact-number .contact-icon svg {
+    position: absolute;
+    top: 1.4rem;
+    left: 1.5rem;
+   height:2.5rem;
+   width:2.5rem;
+}
+
+.footer .id-address .email-icon svg{
+  height:2rem;
+  width:2rem;
+}
+
+.footer .location-address .location-icon> svg{
+  height:1.5;
+  width:1.5rem;
+}
+}
+
+@media ( 992px <= width <= 1035px)
+{
+  .footer .email-submit input {
+    height: 3.6rem;
+    width: 10rem;
+}
+}
